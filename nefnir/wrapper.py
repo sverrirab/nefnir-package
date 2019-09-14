@@ -6,10 +6,6 @@ from typing import Optional, Tuple
 
 from .nefnir import Nefnir as _Nefnir
 
-__author__ = """Sverrir Á. Berg"""
-__email__ = 'sab@keilir.com'
-__version__ = '1.0.0'
-
 
 class _NefnirPackage(_Nefnir):
     def __init__(self, rules, tagmap):

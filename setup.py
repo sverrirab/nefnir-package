@@ -20,14 +20,12 @@ test_requirements = [ ]
 setup(
     author="Sverrir Á. Berg",
     author_email='sab@keilir.com',
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
+    python_requires='>=3.5',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
-        'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.7',
+        'Natural Language :: Icelandic',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
@@ -44,7 +42,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/sverrirab/nefnir',
-    version='1.0.0',
+    url='https://github.com/sverrirab/nefnir-package',
+    version='1.0.1',
     zip_safe=False,
 )
