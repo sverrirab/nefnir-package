@@ -1,4 +1,4 @@
-* nefnir version:
+* nefnir-package version:
 * Python version:
 * Operating System:
 

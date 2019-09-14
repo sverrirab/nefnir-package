@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/sverrirab/nefnir/issues.
+Report bugs at https://github.com/sverrirab/nefnir-package/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/sverrirab/nefnir/issues.
+The best way to send feedback is to file an issue at https://github.com/sverrirab/nefnir-package/issues.
 
 If you are proposing a feature:
 
@@ -57,17 +57,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `nefnir` for local development.
+Ready to contribute? Here's how to set up `nefnir-package` for local development.
 
-1. Fork the `nefnir` repo on GitHub.
+1. Fork the `nefnir-package` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/nefnir.git
+    $ git clone git@github.com:your_name_here/nefnir-package.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv nefnir
-    $ cd nefnir/
+    $ mkvirtualenv nefnir-package
+    $ cd nefnir-package/
     $ python setup.py develop
 
 4. Create a branch for local development::

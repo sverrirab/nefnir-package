@@ -3,20 +3,21 @@
 
 """Tests for `nefnir` package."""
 
-
 import unittest
 
-from nefnir import nefnir
+from nefnir import lemmatize, lemmatize_line, recase, __main__
 
 
 class TestNefnir(unittest.TestCase):
     """Tests for `nefnir` package."""
 
-    def setUp(self):
-        """Set up test fixtures, if any."""
+    def test_lemmatize(self):
+        self.assertEqual('hver', lemmatize('Hvað', 'fshen'))
 
-    def tearDown(self):
-        """Tear down test fixtures, if any."""
+    def test_recase(self):
+        self.assertEqual('DNA-þráður', recase('DNA-þræðinum', 'nkeþgs', 'dna-þráður'))
 
-    def test_000_something(self):
-        """Test something."""
+    def test_lemmatize_line(self):
+        self.assertEqual(('Hvað', 'fshen', 'hver'), lemmatize_line('Hvað fshen', separator=' '))
+        self.assertEqual('taka', lemmatize_line('tóku\tsfg3fþ')[2])
+        self.assertEqual('Vestur-Íslendingur', lemmatize_line('Vestur-Íslendingarnir\tnkfng', separator='\t')[2])

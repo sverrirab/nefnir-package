@@ -8,8 +8,6 @@ import os
 import sys
 import time
 
-FORMAT = '%(asctime)s - %(levelname)s %(message)s'
-logging.basicConfig(level=logging.INFO, format=FORMAT)
 logger = logging.getLogger(__name__)
 
 
@@ -216,4 +214,7 @@ def main():
 
 
 if __name__ == '__main__':
+    FORMAT = '%(asctime)s - %(levelname)s %(message)s'
+    logging.basicConfig(level=logging.INFO, format=FORMAT)
+
     main()
