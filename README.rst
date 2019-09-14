@@ -36,6 +36,7 @@ Example
 -------
 
     import nefnir
+    
     nefnir.lemmatize('Hvað', 'fshen')
 
 Credits
