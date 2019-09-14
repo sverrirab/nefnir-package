@@ -5,7 +5,7 @@
 
 import unittest
 
-from nefnir import lemmatize, lemmatize_line, recase, __main__
+from nefnir import lemmatize, lemmatize_line, recase
 
 
 class TestNefnir(unittest.TestCase):

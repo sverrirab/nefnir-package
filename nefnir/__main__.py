@@ -21,7 +21,7 @@ def main() -> int:
     has_errors = False
     for line in fileinput.input(args.filename):
         form, tag, lemma = lemmatize_line(line, separator)
-        if lemma is not None:
+        if form is not None and tag is not None and lemma is not None:
             print(separator.join([form, tag, lemma]))
             continue
         else:

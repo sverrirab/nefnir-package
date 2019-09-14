@@ -19,7 +19,7 @@ All credits to the author of that excellent project.
 
 
 
-A lemmatizer for Icelandic text
+A lemmatizer for Icelandic text See e.g _IceNLP_bridge for help creating tokenized and tagged text.
 
 
 * Free software: Apache Software License 2.0
@@ -30,7 +30,13 @@ Features
 --------
 
 * See Nefnir_ for full description.
+* Simple lemmatizer for Icelandic.
 
+Example
+-------
+
+    import nefnir
+    nefnir.lemmatize('Hvað', 'fshen')
 
 Credits
 -------
