@@ -9,8 +9,8 @@ All credits to the author of that excellent project.
 .. image:: https://img.shields.io/pypi/v/nefnir.svg
         :target: https://pypi.python.org/pypi/nefnir
 
-.. image:: https://img.shields.io/travis/sverrirab/nefnir.svg
-        :target: https://travis-ci.org/sverrirab/nefnir
+.. image:: https://img.shields.io/travis/sverrirab/nefnir-package.svg
+        :target: https://travis-ci.org/sverrirab/nefnir-package
 
 .. image:: https://readthedocs.org/projects/nefnir/badge/?version=latest
         :target: https://nefnir.readthedocs.io/en/latest/?badge=latest
